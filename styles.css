@@ -89,6 +89,7 @@ button.read {
 	font-family: 'Open Sans' , sans-serif;
 	font-size: 20px;
 	margin: 0px;
+
 }
 
 
@@ -102,6 +103,7 @@ button.delete {
 	font-size: 20px;
 
 }
+
 hr {
 	color: orange;
 	background-color: orange;
