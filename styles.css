@@ -38,7 +38,7 @@ button.enter-btn {
 	margin: auto;
 }
 
-button:hover{
+button.enter-btn:hover{
 	background-color: #FFD773;
 }
 
@@ -65,11 +65,10 @@ article.left {
 	text-align: center;	
 	top: 50%;
     height: 100px;
-    margin-top: -50px;
+    margin-top: -150px;
     position: relative;
   	margin-right: auto;
   	margin-left: auto;
-
 }
 span {
 	padding-right: 36px;
@@ -82,34 +81,59 @@ article.bookmark {
 	height: 25%;
 }
 button.read {
+	color: #455A64;
 	display: inline-block;
-	text-align: left;
-	
-}
+	background-color: #FFFFFF;
+	border: 0px;
+	float: left;
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 20px;
+	margin: 0px;
 
 }
+
+
 button.delete {
+	color: #455A64;
 	display: inline-block;
-	text-align: right;
+	background-color: #FFFFFF;
+	border: 0px;
+	float: right;
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 20px;
+
 }
+
 hr {
 	color: orange;
 	background-color: orange;
 	height: 1px;
 	margin-right: 25px;
 	margin-left: 25px;
+	margin-top: 5px;
 }
 p {
 	color: #607D8B;
 	margin-left: 25px;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	font-size: 30px;
 }
 h2 {
 	color: #455A64;
 	margin-left: 25px;
+	font-size: 50px;
 }
 
+hr.bottom {
+	color: #F2F4F4;
+	width: 50px;
+}
+
+hr.bottom:hover {
+	color: #FCC107;
+	height: 1px;
+}
 
 
 
