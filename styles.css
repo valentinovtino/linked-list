@@ -1,54 +1,56 @@
-*{box-sizing: border-box;
+* {
+	box-sizing: border-box;
 	margin:0;}
 	
 
-body{
+body {
 	font-family: 'Open Sans' , sans-serif;
 }
 
-h3{
+h3 {
 	font-weight: 800;
 	color: #FFFFFF;
-	font-size: 60px;
+	font-size: 85px;
 	/*text-align: center;*/
 }
 
 input {
 	display: block;
 	font-family: 'Open Sans' , sans-serif;
+	font-size: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
 	margin-top: 30px;
-	width: 80%;
+	width: 93%;
 	height: 30px;
 }
 
-button {
+button.enter-btn {
 	background-color: #FFC107;
 	color: #FFFFFF;
 	display: block;
+	font-size: 20px;
 	font-weight: 800;
-	width: 80%;
+	width: 93%;
 /*	margin-left: 3%;
 */	height: 30px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 
 button:hover{
 	background-color: #FFD773;
 }
 
-.left {
+section.left {
 	background-color: #455A64;
 	width: 50%;
 	display: inline-block;
 	height: 878.44px;
 }
 .logo {
-	width: 100px;
-	height: 68px;
+	width: 136px;
+	height: 95px;
 	padding-right: 5px;
 	margin-bottom: -10px;
 }
@@ -59,12 +61,52 @@ button:hover{
 	height: 878.44px;
 	position: absolute;
 }
-article {
+article.left {
 	text-align: center;	
-	
+	top: 50%;
+    height: 100px;
+    margin-top: -50px;
+    position: relative;
+  	margin-right: auto;
+  	margin-left: auto;
 
 }
+span {
+	padding-right: 36px;
+}
+article.bookmark {
+	border: solid #607D8B;
+	box-sizing: border-box;
+	margin: 15px;
+	background-color: #FFFFFF;
+	height: 25%;
+}
+button.read {
+	display: inline-block;
+	
+}
 
+}
+button.delete {
+	display: inline-block;
+}
+hr {
+	color: orange;
+	background-color: orange;
+	height: 1px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+p {
+	color: #607D8B;
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+h2 {
+	color: #455A64;
+	margin-left: 25px;
+}
 
 
 
