@@ -83,12 +83,14 @@ article.bookmark {
 }
 button.read {
 	display: inline-block;
+	text-align: left;
 	
 }
 
 }
 button.delete {
 	display: inline-block;
+	text-align: right;
 }
 hr {
 	color: orange;
