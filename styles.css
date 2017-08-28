@@ -90,6 +90,7 @@ button.read {
 	padding-left: 25px;
 	text-decoration: underline #F2F4F4;
 }
+
 button.delete {
 	color: #455A64;
 	display: inline-block;
@@ -101,6 +102,7 @@ button.delete {
 	text-decoration: underline #F2F4F4;
 	padding-right: 25px;
 }
+
 hr {
 	color: orange;
 	background-color: orange;
