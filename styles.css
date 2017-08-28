@@ -23,7 +23,7 @@ input {
 	margin-bottom: 30px;
 	margin-top: 30px;
 	width: 93%;
-	height: 30px;
+	/*height: 30px;*/
 }
 
 button.enter-btn {
@@ -89,6 +89,7 @@ button.read {
 	font-family: 'Open Sans' , sans-serif;
 	font-size: 20px;
 	margin: 0px;
+	text-decoration: underline #F2F4F4;
 }
 
 
@@ -100,6 +101,7 @@ button.delete {
 	float: right;
 	font-family: 'Open Sans' , sans-serif;
 	font-size: 20px;
+	text-decoration: underline #F2F4F4;
 
 }
 hr {
@@ -116,22 +118,26 @@ p {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	font-size: 30px;
+	text-decoration: underline #F2F4F4;
 }
 h2 {
 	color: #455A64;
 	margin-left: 25px;
 	font-size: 50px;
 }
-
-hr.bottom {
-	color: #F2F4F4;
-	width: 50px;
+p:hover {
+	text-decoration: underline #FCC107;
+}
+button.delete:hover {
+	text-decoration: underline #FCC107;
+}
+button.read:hover {
+	text-decoration: underline #FCC107;
 }
 
-hr.bottom:hover {
-	color: #FCC107;
-	height: 1px;
-}
+
+
+
 
 
 
