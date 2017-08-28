@@ -91,6 +91,14 @@ button.read {
 	text-decoration: underline #F2F4F4;
 }
 
+.read-btn button.read{
+	color: #F05A28; 
+}
+
+/*.read-btn {
+	
+}*/
+
 button.delete {
 	color: #455A64;
 	display: inline-block;
@@ -111,7 +119,7 @@ hr {
 	margin-left: 25px;
 	margin-top: 5px;
 }
-p {
+a {
 	color: #607D8B;
 	margin-left: 25px;
 	margin-top: 25px;
