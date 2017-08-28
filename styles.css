@@ -11,7 +11,6 @@ h3 {
 	font-weight: 800;
 	color: #FFFFFF;
 	font-size: 85px;
-	/*text-align: center;*/
 }
 
 input {
@@ -23,7 +22,6 @@ input {
 	margin-bottom: 30px;
 	margin-top: 30px;
 	width: 93%;
-	height: 30px;
 }
 
 button.enter-btn {
@@ -33,9 +31,9 @@ button.enter-btn {
 	font-size: 20px;
 	font-weight: 800;
 	width: 93%;
-/*	margin-left: 3%;
-*/	height: 30px;
+	height: 30px;
 	margin: auto;
+	border: none;
 }
 
 button.enter-btn:hover{
@@ -89,9 +87,9 @@ button.read {
 	font-family: 'Open Sans' , sans-serif;
 	font-size: 20px;
 	margin: 0px;
-
+	padding-left: 25px;
+	text-decoration: underline #F2F4F4;
 }
-
 
 button.delete {
 	color: #455A64;
@@ -101,7 +99,8 @@ button.delete {
 	float: right;
 	font-family: 'Open Sans' , sans-serif;
 	font-size: 20px;
-
+	text-decoration: underline #F2F4F4;
+	padding-right: 25px;
 }
 
 hr {
@@ -118,22 +117,28 @@ p {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	font-size: 30px;
+	text-decoration: underline #F2F4F4;
 }
 h2 {
 	color: #455A64;
-	margin-left: 25px;
 	font-size: 50px;
+	margin-left: 25px;
+}
+p:hover {
+	color: #455A64;
+	font-weight: 800;
+	text-decoration: underline #FCC107;
+}
+button.read:hover {
+	color: #455A64;
+	text-decoration: underline #FCC107;
+	font-family: 'Open Sans' , sans-serif;
+	font-weight: 800;
 }
 
-hr.bottom {
-	color: #F2F4F4;
-	width: 50px;
-}
 
-hr.bottom:hover {
-	color: #FCC107;
-	height: 1px;
-}
+
+
 
 
 
