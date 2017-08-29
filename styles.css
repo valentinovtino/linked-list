@@ -1,16 +1,16 @@
-/*<style>
-@media (max-width: 900px) {
-	#bottom, #top {
-    display: block;
+
+@media screen and (max-width: 600px) {
+	section.left {
+    height: 300px;
+    width: 100%;
+    position: relative;
 	}
-   article.left {
-   	display: block;
-   }
-   article.right {
-   	display: block;
+   section.right {
+   	width: 100%;
+   	position: relative;
    }
   }
-  </style>*/
+ 
 * {
 	box-sizing: border-box;
 	margin:0;
@@ -143,10 +143,16 @@ a {
 	font-size: 30px;
 	text-decoration: underline #F2F4F4;
 }
+a:hover {
+	color: #455A64;
+	font-weight: 800;
+	text-decoration: underline #FCC107;
+}
 h2 {
 	color: #455A64;
 	font-size: 50px;
 	margin-left: 25px;
+	font-weight: 400;
 }
 p:hover {
 	color: #455A64;
