@@ -1,6 +1,20 @@
+/*<style>
+@media (max-width: 900px) {
+	#bottom, #top {
+    display: block;
+	}
+   article.left {
+   	display: block;
+   }
+   article.right {
+   	display: block;
+   }
+  }
+  </style>*/
 * {
 	box-sizing: border-box;
-	margin:0;}
+	margin:0;
+}
 	
 
 body {
@@ -16,11 +30,11 @@ h3 {
 input {
 	display: block;
 	font-family: 'Open Sans' , sans-serif;
-	font-size: 25px;
+	font-size: 35px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-bottom: 70px;
+	margin-top: 70px;
 	width: 93%;
 }
 
@@ -31,7 +45,7 @@ button.enter-btn {
 	font-size: 20px;
 	font-weight: 800;
 	width: 93%;
-	height: 30px;
+	height: 50px;
 	margin: auto;
 	border: none;
 }
@@ -52,7 +66,7 @@ section.left {
 	padding-right: 5px;
 	margin-bottom: -10px;
 }
-.right {
+section.right {
 	background-color: #CFD8DC;
 	display: inline-block;
 	width: 50%;
@@ -63,7 +77,7 @@ article.left {
 	text-align: center;	
 	top: 50%;
     height: 100px;
-    margin-top: -150px;
+    margin-top: -176px;
     position: relative;
   	margin-right: auto;
   	margin-left: auto;
@@ -74,7 +88,8 @@ span {
 article.bookmark {
 	border: solid #607D8B;
 	box-sizing: border-box;
-	margin: 15px;
+	margin: 25px;
+	margin-bottom: 30px;
 	background-color: #FFFFFF;
 	height: 25%;
 }
@@ -112,12 +127,13 @@ button.delete {
 }
 
 hr {
-	color: orange;
-	background-color: orange;
+	/*color: orange;
+	background-color: orange;*/
 	height: 1px;
+	margin-bottom: 15px;
 	margin-right: 25px;
 	margin-left: 25px;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 a {
 	color: #607D8B;
