@@ -81,10 +81,10 @@ article.bookmark {
 	background-color: #FFFFFF;
 	height: 25%;
 }
-button.read {
+.read-button {
 	color: #455A64;
 	display: inline-block;
-	background-color: #FFFFFF;
+	background-color: rgba(0,0,0,0);
 	border: 0px;
 	float: left;
 	font-family: 'Open Sans' , sans-serif;
@@ -92,6 +92,8 @@ button.read {
 	margin: 0px;
 	padding-left: 25px;
 	text-decoration: underline #F2F4F4;
+	border: none;
+	outline: none;
 }
 .read-btn article.bookmark {
 	/*wont style the background color*/
@@ -106,17 +108,6 @@ button.read {
 	color: #F05A28; 
 }
 
-button.delete {
-	color: #455A64;
-	display: inline-block;
-	background-color: #FFFFFF;
-	border: 0px;
-	float: right;
-	font-family: 'Open Sans' , sans-serif;
-	font-size: 20px;
-	text-decoration: underline #F2F4F4;
-	padding-right: 25px;
-}
 
 hr {
 	color: red;
@@ -151,12 +142,50 @@ p:hover {
 	font-weight: 800;
 	text-decoration: underline #FCC107;
 }
-button.read:hover {
+
+.delete {
+	color: #455A64;
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	float: right;
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 20px;
+	text-decoration: underline #F2F4F4;
+	padding-right: 25px;
+	border: none;
+	outline: none;
+}
+
+.read {
+	display: inline-block;
+	border: 0px;
+	float: left;
+	color: #455A64;
+	text-decoration: underline #FCC107;
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 20px;
+	/*font-weight: 800;*/
+	/*padding-right: 25px;*/
+	border: none;
+	outline: none;
+}
+
+
+.read:hover {
 	color: #455A64;
 	text-decoration: underline #FCC107;
 	font-family: 'Open Sans' , sans-serif;
 	font-weight: 800;
 }
+
+.read:disabled:hover {
+	color: #F05A28;
+	font-family: 'Open Sans' , sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 648px) {
 	section.left {	
     height: 375px;
@@ -189,3 +218,35 @@ h2{
 a {
 	font-size: 15px;
 }
+
+.message {
+ /* background-color: red;*/
+  margin: 1em 0;
+  padding: 1em;
+  color: red;
+}
+
+.nomessage {
+	background-color: #455A64;
+}
+
+.enter-btn:disabled {
+	background-color: #FFC107;
+}
+
+#counter {
+	color: red;
+	font-size: 25px;
+	}
+
+#readCounter {
+	color: red;
+	font-size: 25px;
+	}
+
+
+
+
+
+
+
