@@ -25,6 +25,7 @@ function enabledBtn() {
     }
 }
 
+
 function userEnterBtn(e){
   e.preventDefault(); 
   var title = $('.website-title').val();
@@ -34,7 +35,7 @@ function userEnterBtn(e){
       `<article class="bookmark">
         <h2>${title}</h2> <hr />
         <a href= 'http://${url}' target='_blank'>${url}</a> <hr />
-        <button class="read-button, read">Read</button>
+        <button class="read-button">Read</button>
         <button class="delete">Delete</button>
       </article>`)
   $('.website-title').val("");
@@ -64,6 +65,18 @@ function activateRead(e){
   $(this).closest('.read-button').toggleClass('read');
 }
 
+$('.enter-btn').on('click', function(){
+  var bookCount = $('.bookmark').length;
+  $('#counter').text("There are " + bookCount + " total bookmarks.");
+});
+
+$('.read-btn').on('click', function(){
+  var readCount = $('.read-btn').length;
+  $('#readcount').text("There are " + readCount + " total read bookmarks.")
+  console.log('idiot')
+});
+
+  
 
 $('.enter-btn').on('click', function(){
   bookCount++; 

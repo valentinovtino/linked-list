@@ -81,6 +81,7 @@ article.bookmark {
 	background-color: #FFFFFF;
 	height: 25%;
 }
+
 .read-button {
 	color: #455A64;
 	display: inline-block;
@@ -95,17 +96,47 @@ article.bookmark {
 	border: none;
 	outline: none;
 }
-.read-btn article.bookmark {
-	/*wont style the background color*/
+ article.bookmark.read-btn {
 	background-color: #F2F4F4;
 }
 
-.read-btn a {
+a.read-btn{
 	text-decoration: solid #CFD8DC;
 }
 
-.read-btn button.read{
+button.read.read-btn {
+	background-color: #F2F4F4;
 	color: #F05A28; 
+}
+button.delete.read-btn{
+	background-color: rgba(0,0,0,0);
+}
+
+button.read{
+	color: #F05A28;
+}
+
+
+
+button.delete {
+	color: #455A64;
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	float: right;
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 20px;
+	text-decoration: underline #F2F4F4;
+	padding-right: 25px;
+	border: none;
+	outline: none;
+}
+span#counter{
+	color: #FFFFFF;
+	font-size: 25px;
+}
+span#readcount{
+	color: red;
 }
 
 
@@ -190,7 +221,7 @@ p:hover {
 	section.left {	
     height: 375px;
     width: 100%;
-    margin-bottom: -75px; 
+    margin-bottom: -70px; 
 	}
    section.right {
    	height: 700px;
