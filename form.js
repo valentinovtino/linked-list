@@ -1,13 +1,15 @@
 var bookCount = 0;
 var readCount = 0;
-// document.querySelector('.enter-btn').addEventListener('click', userEnterBtn);
-// document.querySelector('.right').addEventListener('click' , '.delete', userDeleteBtn);
+
 $('.right').on('click','.read-button', activateRead);
 $('.enter-btn').on('click', alertInvalid);
 $('.website-title').keyup(enabledBtn);
 $('.website-url').keyup(enabledBtn);
 $('.right').on('click', '.delete', userDeleteBtn);
 $('.enter-btn').on('click', userEnterBtn);
+$('.clear-btn').on('click', clearAll);
+
+
 
 function alertInvalid() {
   if ( $('.website-title').val() === "" || $('.website-url').val() === "") {
@@ -96,6 +98,10 @@ $('.right').on('click', '.read', function(e){
 });
 
 
+function clearAll() {
+  $('.right').children().remove();
+  
+}
 
 
 
